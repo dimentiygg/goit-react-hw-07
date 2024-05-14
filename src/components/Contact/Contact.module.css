@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 30px 30px 30px 50px;
+  width: 350px;
+  position: relative;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+}
+
+.text {
+  text-align: start;
+  margin: 0;
+  font-size: 20px;
+}
+.user {
+  position: absolute;
+  left: 20px;
+  top: 33px;
+}
+
+.phone {
+  position: absolute;
+  left: 20px;
+  bottom: 35px;
+}
+.button {
+  font-size: 20px;
+}

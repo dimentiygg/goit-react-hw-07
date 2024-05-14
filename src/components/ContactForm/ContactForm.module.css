@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  padding: 20px;
+  width: fit-content;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+}
+
+.input {
+  width: 300px;
+  padding: 7px;
+  font-size: 17px;
+}
+
+.label {
+  font-size: 20px;
+}
+
+.label:last-of-type {
+  margin-top: 20px;
+}
+.button {
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.error {
+  color: orangered;
+}
